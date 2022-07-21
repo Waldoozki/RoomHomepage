@@ -52,7 +52,7 @@ body {
   width: 100%;
   height: 100%;
 }
-.main__room--movil {
+.main__home--mobile {
   display: none;
 }
 /* MAIN__NAV */
@@ -282,25 +282,11 @@ height: 100%;
   }
 }
 @media (max-width:425px) {
-  .main__room {
+  .main__home {
     display: none;
   }
-  .main__room--movil {
+  .main__home--mobile {
     display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 1.5s;
-    z-index: -1;
-  }
-  .main__room--show {/* Clase a usar en JS */
-    display: block;
-    opacity: 1;
-    pointer-events: unset;
   }
 }
 /* FINISH */
